@@ -5,18 +5,18 @@ import About from "./routes/About";
 import Contact from "./routes/Contact";
 import Project from "./routes/Project";
 
-import { Route, Routes} from "react-router-dom";
+import { BrowserRouter, Route, Routes} from "react-router-dom";
 
 function App() {
   return (
-    <>
+    <BrowserRouter basename={process.env.PUBLIC_URL}>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
         <Route path="/contact" element={<Contact />} />
         <Route path="/project" element={<Project />} />
       </Routes>
-    </>
+    </BrowserRouter>
   );
 }
 
