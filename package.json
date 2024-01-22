@@ -1,8 +1,8 @@
 {
-  "homepage": "https://meghatm193.github.io/ReactMyPortfolio/",
+  "homepage": "https://meghatm193.github.io/ReactMyPortfolio",
   "name": "my-app",
   "version": "0.1.0",
-  "private": false,
+  "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
