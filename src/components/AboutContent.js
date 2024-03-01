@@ -9,7 +9,21 @@ const AboutContent = () => {
     <div className='about'>
     <div className="left">
         <h1>Who I am ???</h1>
-        <p>I'm A Full Stack Web Developer. I have good Knowledge of HTML5, CSS3, Bootstrap, Javascript, React.js, Node.js, Express.js, MongoDB, MySql, Python, Django. I Create Responsive Websites. I am eager to learn new things and Passinate about my work.</p>
+        <ul style={{"list-style-type":"disc"}}>
+            <li>I'm A Full Stack Web Developer.</li>
+            <li>
+                <ul>
+                <h3>Proficient in :</h3>
+                    <li>HTML5, CSS3, Bootstrap</li>
+                    <li>Javascript, React.js, Redux, Rest Api</li>
+                    <li>Node.js, Express.js</li>
+                    <li>MongoDB, MySql</li>
+                    <li>Python, Django</li>
+                </ul>
+            </li>
+            <li>I have developed a diverse portfolio encompassing projects utilizing React.js, Python Django, as well as MERN Stack technologies. For a detailed overview of my work, please refer to the Projects section.</li>
+            <li> I am eager to learn new things and Passinate about my work.</li>
+        </ul>
         <Link to="/contact">
             <button className="btn">Contact</button>
         </Link>
