@@ -23,11 +23,7 @@ const Footer = () => {
                 </div>
                 <div className="email">
                 <h4>
-                <FaMailBulk size={20} style={{color:"#fff", marginRight:"2rem"}}/>meghamokashi19@gmail.com</h4>
-                </div>
-
-                <div className="email">
-                <h4 style={{ marginTop:"2rem", marginLeft:"3rem"}} >Check My Online Profiles Here {' >'}</h4>
+                <FaMailBulk size={20} style={{color:"#fff", marginRight:"2rem"}}/>meghatm193@gmail.com</h4>
                 </div>
 
             </div>
