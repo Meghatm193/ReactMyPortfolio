@@ -56,8 +56,8 @@ const ProjectCardData = [
         imgsrc: proj4,
         title : "To Do List - React js, Node js, Express js, MongoDB",
         text : "MERN Stack Project - Developed To Do List app using React Js, Node js, express js, MongoDb. This Dynamic and responsive Website and is created for add, modify, delete daily task.",
-        view : "#",
-        source : "#"
+        view : "https://github.com/Meghatm193/TodoList_SimpleApp",
+        source : "https://github.com/Meghatm193/TodoList_SimpleApp"
     }
 ];
 export default ProjectCardData;
